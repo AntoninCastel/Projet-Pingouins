@@ -14,6 +14,6 @@ Vous pouvez vous déplacer en ligne droite sur n'importe quelle tuile directemen
 
 Développé en Java 8, avec javaFX.  
 Modèle Modèle-Vue-Controleur  
-***L'IA facile*** fonctionne en essayant de récuperer le plus de case à 3 poissons possible.  
+***L'IA facile*** fonctionne en essayant de récuperer le plus de case à 3 poissons possible, sans essayer d'anticiper les coups de l'adversaire.  
 ***L'IA difficile*** fonctionne grâce à un algorithme MinMax avec élagage Alpha-Beta qui calcule toutes les configurations du plateau possibles sur un nombre de coup donné, et juge chaque coup possible grâce à des heuristiques définies.  
 ***L'IA moyenne*** fonctionne avec le même algorithme que l'IA difficile, mais elle ne calcule les configurations accessibles qu'en deux coups.  
