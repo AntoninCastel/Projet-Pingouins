@@ -7,8 +7,8 @@ Pingouin est un jeu de plateau simple. Le plateau est constitué d'un ensemble d
 Le but du jeu est de récuperer plus de poissons que vos adversaires.  
 Pour ça, vous et votre adversaire placez vos pingouins sur une tuile comportant ***1*** poissons.  
 Lorsque tout les pingouins sont placés, alors vous et votre adversaire pouvez deplacer un de vos pingouins à tour de rôle.  
-En vous deplacant, vous ajoutez à votre score le nombre de poissons présents sur la tuile où votre pingouins est avant le déplacement. 
-Vous pouvez vous déplacer en ligne droite sur n'importe quelle tuile directement accessible depuis votre position.  
+En vous deplacant, vous ajoutez à votre score le nombre de poissons présents sur la tuile où votre pingouins est avant le déplacement, et cette tuile est supprimée du plateau de jeu.  
+Vous pouvez vous déplacer en ligne droite sur n'importe quelle tuile directement accessible depuis votre position (les pingouins ne peuvent pas passer au dessus d'une zone ou les tuiles ont été supprimées).  
 
 # Details techniques
 
